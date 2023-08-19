@@ -39,7 +39,7 @@ function getInputFieldValue(elementId){
     const elementValueString = element.value;
     const elementValue = parseFloat(elementValueString);
     element.value = '';
-    return elementValue;
+    return elementValue;  
 }
 
 function  setElementText(setId,setValue){
